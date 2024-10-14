@@ -5,10 +5,10 @@ export class Product {
     @Prop({required: true})
     name: string;
 
-    @Prop()
+    @Prop({required: true})
     price: number;
 
-    @Prop()
+    @Prop({required: true})
     description: string;
 
     @Prop()
@@ -23,7 +23,7 @@ export class Product {
     @Prop()
     updatedBy: string;
 
-    @Prop()
+    @Prop({required: true})
     imageUrl: string;
 }
 
